@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import { BACKDROP } from "../utils/Constants";
 
 const Error = () => {
   return (
     <div className="min-h-screen relative flex items-center justify-center px-4">
       <div className="absolute inset-0 z-0">
         <img
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/031c42b9-0c81-4db5-b980-0160765188e9/9934b8a1-a627-405d-b931-12e641038d71/NL-en-20240819-TRIFECTA-perspective_WEB_dd695d42-8034-4b1a-834f-b1ffc2ca191a_large.jpg"
+          src={BACKDROP}
           alt="background"
           className="w-full h-full object-cover opacity-50"
         />
